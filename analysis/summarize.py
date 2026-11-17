@@ -61,6 +61,43 @@ def share(rows, pred):
     return len(hit), len(rows), (hit_mw / tot_mw if tot_mw else 0)
 
 
+BROAD = ROOT / "data" / "broad_list.csv"
+
+
+def broad_section():
+    """Light-coded list of every project named in Data Center Watch's free briefings."""
+    if not BROAD.exists():
+        return []
+    b = list(csv.DictReader(open(BROAD, newline="")))
+    out = [f"\n## 5. Broad list: projects named in DCW free briefings ({len(b)} projects)\n",
+           "Coded from briefing text only (status as DCW reported it); not human-verified.\n"]
+    out.append("| status at report | 2025 | 2026 | all |")
+    out.append("|---|---:|---:|---:|")
+    for s in ["blocked", "delayed", "contested", "proceeding"]:
+        c = [sum(1 for r in b if r["status_at_report"] == s and (p is None or r["period"] == p))
+             for p in ("2025", "2026", None)]
+        out.append(f"| {s} | {c[0]} | {c[1]} | {c[2]} |")
+    bd = [r for r in b if r["status_at_report"] in ("blocked", "delayed")]
+    n = len(bd)
+    out.append(f"\nAmong the {n} blocked or delayed projects:")
+    mech = {}
+    for r in bd:
+        k = primary(r["mechanism"])
+        mech[k] = mech.get(k, 0) + 1
+    out.append("- primary mechanism: " + ", ".join(f"{k} {v}" for k, v in sorted(mech.items(), key=lambda x: -x[1])))
+    nm = sum(r["end_user_named"] == "yes" for r in bd)
+    rum = sum(r["end_user_named"] == "rumored" for r in bd)
+    out.append(f"- end user named: {nm}/{n} ({nm / n:.0%}); rumored only: {rum}")
+    out.append(f"- MW reported: {sum(bool(r['size_mw']) for r in bd)}/{n}; "
+               f"$ reported: {sum(bool(r['announced_value_usd']) for r in bd)}/{n}")
+    usd = sum(float(r["announced_value_usd"]) for r in bd if r["announced_value_usd"])
+    out.append(f"- sum of reported $: ${usd / 1e9:,.1f}B")
+    out.append(f"- also in core sample: {sum(bool(r['core_project_id']) for r in bd)}/{n}")
+    nl = sum(r["mechanism"] == "state_action" for r in bd)
+    out.append(f"- paused for non-local reasons (state tax policy etc.): {nl}")
+    return out
+
+
 def main():
     rows = list(csv.DictReader(open(DATA, newline="")))
     out = [f"# Sample summary ({len(rows)} projects)\n",
@@ -124,6 +161,7 @@ def main():
         out.append(f"| {label} | {cell(by_p.get('2025', []), pred)} | "
                    f"{cell(by_p.get('2026', []), pred)} | {cell(rows, pred)} |")
 
+    out += broad_section()
     text = "\n".join(out)
     print(text)
     if "--md" in sys.argv:

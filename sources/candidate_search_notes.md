@@ -67,3 +67,14 @@ First look at the counts (not yet the analysis script; these will change after h
 - **Primary mechanism:** formal moratoriums are primary in only 4 of 21.
 - **Passes SemiAnalysis filter:** yes = 2 (Hazle Twp, Lordstown), unclear = 4, no = 15.
 - **Unknowns:** 56 of 105 values in the five status fields (tenant, land, power, permits/financing, other sites) are `unknown`. That is itself a finding about how thin public evidence is.
+
+## Broad list (`data/broad_list.csv`)
+
+- **Source:** every Data Center Watch free Substack briefing from Feb 2025 to Jul 2026: 51 briefings, listed via the newsletter's sitemap.
+- **Extraction:** the briefings were split into 157 stories. About a third are about state bills, policy or transmission lines, not specific projects, and were dropped. Repeat stories about the same project were merged, leaving **68 unique projects**.
+- **Coding depth:** light, from briefing text only.
+  - `status_at_report` records what DCW reported at the time: blocked = denied/withdrawn/cancelled; delayed = deferred/paused/held by moratorium or lawsuit; contested = opposition but no decision yet; proceeding = approved/advancing despite opposition.
+  - It is not the current outcome.
+  - `end_user_named` is "yes" only if the briefing names one.
+- **Why it matters:** this is DCW's own *public* naming of projects. It is still not their full counted list, which is in the paid reports. It is a check on whether the hand-picked core sample is representative.
+- **Caveat:** two of the size figures in briefings (Red Wolf's "75 MW", for example) turned out to be policy thresholds, not project sizes. The context of each number was checked before recording it.

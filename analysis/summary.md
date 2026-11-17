@@ -144,3 +144,22 @@ Rows missing MW: 7; missing $: 4.
 | Proceeding despite opposition | 3 (1,986 MW) | 0 (0 MW) | 3 (1,986 MW) |
 | Counts as delayed under SemiAnalysis filter | 0 (0 MW) | 2 (300 MW) | 2 (300 MW) |
 | Explicitly relocated | 0 (0 MW) | 0 (0 MW) | 0 (0 MW) |
+
+## 5. Broad list: projects named in DCW free briefings (68 projects)
+
+Coded from briefing text only (status as DCW reported it); not human-verified.
+
+| status at report | 2025 | 2026 | all |
+|---|---:|---:|---:|
+| blocked | 18 | 10 | 28 |
+| delayed | 11 | 3 | 14 |
+| contested | 10 | 2 | 12 |
+| proceeding | 10 | 4 | 14 |
+
+Among the 42 blocked or delayed projects:
+- primary mechanism: application_withdrawn 15, other 10, rezoning_denied 9, moratorium 4, lawsuit 3, state_action 1
+- end user named: 3/42 (7%); rumored only: 1
+- MW reported: 6/42; $ reported: 19/42
+- sum of reported $: $162.0B
+- also in core sample: 10/42
+- paused for non-local reasons (state tax policy etc.): 1
