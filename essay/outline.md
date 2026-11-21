@@ -24,7 +24,10 @@ Writing rules for every paragraph: open with the claim → give one or two numbe
 
 ### ¶1.1 Concession: the delays are real, but small in aggregate
 - **Topic sentence:** Opposition does impose measurable delays.
-- **Evidence:** delays of ~8–15 months where measurable (Stokes County ~8 months; Hermantown ~12; Project Sail ~15, including a 180-day moratorium) [read: project rows P04, P05, P29 notes].
+- **Evidence:** delays of ~8–15 months where measurable:
+  - Stokes County, NC: ~8 months (rezoned Jan 2026, voided Apr 2026 after a lawsuit, re-approved Sept 2026) [read][wfae-stokes] (candidate log C29);
+  - Hermantown, MN: ~11–12 months (developer paused Nov 2025, final approval Oct 30 2026) [read][mpr-herm] (P05);
+  - Project Sail, GA: approval took ~15 months from filing, including a 180-day moratorium [read][ajc-sail] (P04). That's total time to approval, not delay beyond a baseline, so word it that way.
 - **Scale:** SemiAnalysis finds only ~2.3 GW of US capacity actually delayed by moratoriums and New York's order [read][semi-mor], roughly **five weeks** of US buildout growth (≈ ln(1 + 2.3/70) / ln(1.4) × 52; assumes ~70 GW stock at end 2026 and ~40%/yr growth; order of magnitude only).
 - **Tie-back:** real friction, but small next to the pace of the buildout.
 
@@ -160,3 +163,4 @@ Writing rules for every paragraph: open with the claim → give one or two numbe
 [govai-kyc]: https://www.governance.ai/research-paper/oversight-for-frontier-ai-through-kyc-scheme-for-compute-providers
 [govai-compute]: https://www.governance.ai/research-paper/computing-power-and-the-governance-of-artificial-intelligence
 [baxtel-jarvis]: https://baxtel.com/data-center/sentinel-grove-technology-park
+[wfae-stokes]: https://www.wfae.org/2026-09-15/inside-stokes-countys-latest-vote-on-the-project-delta-data-center
