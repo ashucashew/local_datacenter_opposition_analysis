@@ -18,53 +18,58 @@ Writing rules for every paragraph: open with the claim → give one or two numbe
 
 ---
 
-## Section 1. Developers route around opposition (~750 words)
+## Section 1. Opposition acts on time and cost, not compute (~850 words)
 
-**Section claim:** Opposition removes sites, not capacity. Developers have backup options and use them, and demand is strong enough that they keep paying to.
+**Section claim:** Opposition is real and growing, but it acts mainly on time and cost, early in the development funnel. Developers have backup options, and both the market and federal policy push the buildout forward.
 
-### ¶1.1 Concession: the delays are real, but small in aggregate
+### ¶1.1 Start with incentives: value far exceeds cost, and chips set the ceiling
+- **Topic sentence:** What matters for AI progress is compute, and data centers only constrain it if buildings fall behind the chips available to fill them.
+- **Value vs cost:**
+  - Leases are worth ~$30–50B per GW over 15–20 years (~$1.5–3.3B per GW per year); ~$1T of binding leases were signed in 2026 [read][semi-27].
+  - The costs opposition imposes are small by comparison: NorthPoint's $165M community-benefits package for ~300 MW ≈ 2–4 months of lease revenue, paid once [search][hazelnut]; on-site power at ~$100–165/MWh vs ~$90–95 from the grid [search][rabobank].
+- **The ceiling is chips:** power needed for chips shipped ≈ 15–30 GW (2026) and 30–45 GW (2027), against data center additions of ≈ 25 GW and 43–51 GW [search: JPMorgan units; bg: per-chip power; read: SemiAnalysis additions]. SemiAnalysis expects memory and logic chips to become the binding constraint in 2027–28 [read][semi-27]. State this conditionally: the ranges overlap.
+- **Closing sentence:** "As long as data centers keep pace with chip supply, opposition delays empty buildings, not compute."
+
+### ¶1.2 Concession: real delays, but the industry keeps its pace
 - **Topic sentence:** Opposition does impose measurable delays.
-- **Evidence:** delays of ~8–15 months where measurable:
+- **Evidence:**
   - Stokes County, NC: ~8 months (rezoned Jan 2026, voided Apr 2026 after a lawsuit, re-approved Sept 2026) [read][wfae-stokes] (candidate log C29);
   - Hermantown, MN: ~11–12 months (developer paused Nov 2025, final approval Oct 30 2026) [read][mpr-herm] (P05);
   - Project Sail, GA: approval took ~15 months from filing, including a 180-day moratorium [read][ajc-sail] (P04). That's total time to approval, not delay beyond a baseline, so word it that way.
-- **Scale:** SemiAnalysis finds only ~2.3 GW of US capacity actually delayed by moratoriums and New York's order [read][semi-mor], roughly **five weeks** of US buildout growth (≈ ln(1 + 2.3/70) / ln(1.4) × 52; assumes ~70 GW stock at end 2026 and ~40%/yr growth; order of magnitude only).
-- **Tie-back:** real friction, but small next to the pace of the buildout.
+- **Scale:** SemiAnalysis finds only ~2.3 GW actually delayed by moratoriums and New York's order [read][semi-mor], roughly **five weeks** of US buildout growth (≈ ln(1 + 2.3/70) / ln(1.4) × 52; ~70 GW stock at end 2026, ~40%/yr growth; order of magnitude only).
+- **The industry keeps accelerating (verified):** capacity under construction rose from ~44 GW (end Q1 2026) to ~80 GW; the pipeline grew 54 GW in Q2 2026, +29% year on year [read][woodmac]. US hyperscaler construction starts are "going parabolic"; ~25 GW was delivered globally in 2026, with ~51 GW forecast for 2027 [read][semi-27]. *Nuance (one clause):* 2026 was tight (1.4% vacancy [search]), but mainly from grid-connection delays, not opposition.
+- **Forward pointer (one sentence):** "Opposition is growing, so the question is whether these routes stay open. The rest of this section argues they do."
 
-### ¶1.2 Why the alarming headlines don't measure lost capacity: the funnel
-- **Topic sentence:** The headline counts measure different stages of a development funnel in which most proposals never get built, opposition or not.
-- **Evidence (one line or one small table):** ~700–780 GW publicly proposed → ~430 GW pipeline → ~200 GW with signed utility/construction agreements → ~60–80 GW under construction → ~25–40 GW delivered a year [read: SynMax citing Aurora][synmax]; [read][woodmac]; [read][semi-27].
+### ¶1.3 Why the alarming headlines don't measure lost capacity
+- **Topic sentence:** The headline counts measure a development funnel in which most proposals never get built, opposition or not.
+- **The funnel (one line):** ~700–780 GW publicly proposed → ~430 GW pipeline → ~200 GW with signed utility/construction agreements → ~60–80 GW under construction → ~25–40 GW delivered a year [read][synmax]; [read][woodmac].
 - **The logic:**
-  - **Early-stage counts** (Data Center Watch: ≥75 projects, ~$130B in Q1 2026, any mechanism, in dollars [read][dcw]; Heatmap: ≥20 cancellations, ≥3.5 GW [read][heatmap]) capture sites developers routinely lose. Losing them doesn't mean the capacity isn't built elsewhere.
-  - **Late-stage counts** (SemiAnalysis's 2.3 GW) look at projects that have mostly cleared local hoops already, so they find little delay.
-- **Tie-back:** neither count measures the thing that matters, which is whether capacity gets built somewhere.
+  - **Early-stage counts** (Data Center Watch: ≥75 projects, ~$130B in Q1 2026, any mechanism, in dollars [read][dcw]; Heatmap: ≥20 cancellations, ≥3.5 GW [read][heatmap]) capture sites developers routinely lose. Our data agrees: most losses come at the first local-approval step, and few blocked projects had a public tenant or power deal (3 of 42 in the broad list named an end user) [read: data/broad_list.csv].
+  - **The question that matters** is whether the capacity still gets built somewhere. That depends on backup options.
 
-### ¶1.3 Evidence: developers hold backup sites and route around opposition
-- **Topic sentence:** The projects in Data Center Watch's own coverage show developers losing sites and continuing.
-- **Our data:** 21 hand-coded projects plus 68 from DCW's free briefings. Most losses come at the first local-approval step (rezoning or special use permit). Few had a public tenant or power deal at the time: in the broad list, 3 of the 42 blocked or delayed projects named an end user. [read: data/projects.csv, data/broad_list.csv]
+### ¶1.4 Backup options: routing around, moving away, and why not every developer needs to succeed
+- **Topic sentence:** Developers hold many sites and have several ways around opposition.
 - **Several sites at once:**
-  - **Tract** lost Mooresville (withdrawn Aug 2025) and Hanover Mountain Road (900 MW, denied May 2026) while continuing to develop its 1,200-acre Ashland campus [read][rbs].
-  - **Prologis** was denied in Kosciusko County, IN (Apr 2025), then won approval for Project Sail, GA (900 MW, $17B, Apr 2026) [read][ajc-sail].
-- **Routes around opposition** (word carefully, with NO causal claim about demand):
+  - **Tract** lost Mooresville (Aug 2025) and Hanover Mountain Road (900 MW, May 2026) while continuing its 1,200-acre Ashland campus [read][rbs];
+  - **Prologis** was denied in Kosciusko County, IN (Apr 2025), then won Project Sail, GA (900 MW, $17B, Apr 2026) [read][ajc-sail].
+- **Routes around opposition** (NO causal claim about demand):
   - **lawsuit and settlement:** Saline Township, MI (denied Sept 2025, consent judgment Oct 2025, now under construction) [read][pd-saline];
-  - **a different approving government:** Project Blue (Tucson said no; Pima County approved; but no confirmed tenant since AWS left in Dec 2025) [search][kold-blue];
-  - **a delayed approval:** Hermantown, MN (Google; final approval Oct 2026, ~1 year after the pause) [read][mpr-herm].
-- **Suggested sentence:** "Whether real demand drove these outcomes or followed them can't be determined from public records. Developers typically sign tenants after a site is approved."
-- **Tie-back:** a lost site is usually a lost option, not lost capacity.
+  - **a different approving government:** Project Blue (Tucson said no; Pima County approved; no confirmed tenant since AWS left in Dec 2025) [search][kold-blue];
+  - **a delayed approval:** Hermantown, MN (Google; ~1 year) [read][mpr-herm].
+  - **Suggested sentence:** "Whether real demand drove these outcomes or followed them can't be determined from public records. Developers typically sign tenants after a site is approved."
+- **Moving away and building their own power:** GW Ranch, Pecos County, TX: Amazon, 7.65 GW gas, "off-grid initially" [search][gwranch]. SemiAnalysis expects 40 GW+ of US behind-the-meter data centers by 2028 [search]. *Caveat (one clause):* ~90 GW announced, ~2 GW operating [search][cleanview]; still needs state air permits.
+- **Counter → rebuttal:** "Some developers found alternatives, but not all will." True: the failures in our data were smaller developers (Energy Storage Solutions: Tarboro, then Kingsboro [read][cpp]; Karis: Naperville, then Hoffman Estates). **But the buildout doesn't need every developer to succeed, only enough sites to house the chips being made.** Developers hold ~10x more sites than get built each year, and others can absorb a failed developer's demand. (Point forward: who gets squeezed is the subject of Section 3.)
 
-### ¶1.4 Escape valves when nearby sites get harder
-- **Topic sentence:** Where opposition makes populated areas hard, developers are already moving to remote sites with their own power, and, at the margin, abroad.
-- **Off-grid:** GW Ranch, Pecos County, TX: Amazon, 7.65 GW gas, "off-grid initially and designed for future grid interconnection" [search][gwranch]. SemiAnalysis expects 40 GW+ of US behind-the-meter data centers by 2028 [search]. On-site power costs ~$100–165/MWh vs ~$90–95 from the grid [search][rabobank]: more expensive, but affordable given the value of capacity (¶1.5). *Caveat (one clause):* ~90 GW announced, ~2 GW operating [search][cleanview]; off-grid still needs state air permits.
-- **Abroad:** BIS moved the UAE into Country Group A:5 in July 2026, giving approved entities license-free access to advanced chips [search][uae]. SemiAnalysis says the ex-US buildout is accelerating, "largely driven by US challenges" [read][semi-27]. *Caveat (one clause):* rest-of-world additions are only ~4–8 GW a year; GovAI finds no intrinsic UAE cost advantage [read][govai-uae].
-- **Tie-back:** each escape valve costs more, but stays open.
+### ¶1.5 If routes narrow everywhere: the federal backstop
+- **Topic sentence:** Even if local and state opposition spread widely, federal policy treats the buildout as a national priority and has tools that don't need state approval.
+- **Executive tools (no Congress needed):**
+  - **Allied sites abroad:** BIS moved the UAE into Country Group A:5 in July 2026, giving approved entities license-free access to advanced chips [search][uae]. SemiAnalysis says the ex-US buildout is accelerating, "largely driven by US challenges" [read][semi-27].
+  - **Federal land and federal permitting:** state and local zoning generally doesn't apply on federal property [bg: cite DOE/federal-sites program and the 2025 permitting order, or cut].
+- **Overriding states needs Congress:** legally possible (precedents: gas pipelines under the Natural Gas Act; cell towers under the 1996 Telecommunications Act [bg]), but politically hard now. Current bills *protect* local control: H.R. 10119, Protecting Local Control of Data Centers Act [read: congress.gov][hr10119]; Burchett's Community Control of Data Centers Act [search][burchett].
+- **Caveats (one clause each):** rest-of-world additions are only ~4–8 GW a year; GovAI finds no intrinsic UAE cost advantage [read][govai-uae]; offshoring has its own governance costs (Section 3).
 
-### ¶1.5 Why developers keep paying: value far exceeds cost, and the real limit is chips
-- **Topic sentence:** Developers absorb these costs because capacity is worth far more, and the binding constraint on compute is increasingly chips, not buildings.
-- **Value vs cost:**
-  - Leases are worth ~$30–50B per GW over 15–20 years (~$1.5–3.3B per GW per year); ~$1T of binding leases were signed in 2026 [read][semi-27].
-  - NorthPoint's $165M community-benefits package for ~300 MW ≈ 2–4 months of lease revenue, paid once [search][hazelnut].
-- **Keeping pace with chips (rough):** power needed for chips shipped ≈ 15–30 GW (2026) and 30–45 GW (2027), against data center additions of ≈ 25 GW and 43–51 GW [search: JPMorgan units; bg: per-chip power; read: SemiAnalysis additions]. SemiAnalysis expects memory and logic chips to become the binding constraint in 2027–28 [read][semi-27]. State this conditionally: the ranges overlap.
-- **Closing sentence:** "If data centers keep pace with chip supply, opposition delays buildings, not compute."
+### ¶1.6 Tie together
+- **Closing:** Compute gains are unlikely to be slowed much by opposition. Developers have many backup options, the value of capacity dwarfs the costs, the binding limit is increasingly chips, and federal policy backs the buildout, even though Congress has not moved to override local control.
 
 ---
 
@@ -98,11 +103,11 @@ Writing rules for every paragraph: open with the claim → give one or two numbe
 
 ---
 
-## Counterarguments and rebuttals (~250 words)
+## Counterarguments and rebuttals (~150–200 words)
 
 | Counterargument | Rebuttal |
 |---|---|
-| **(Lead) Opposition is growing; future effects could be much larger.** | Concede it *could* slow the buildout, especially through state-level restrictions in the few key states (Texas's Sept 2026 permit pause puts 60+ GW under review [read][woodmac]). But it isn't steerable (Section 2), and the mistargeting gets *worse* with scale (Section 3). Separate "can it slow the buildout?" (possibly) from "is it an effective safety lever?" (no). Escalation evidence is mixed: 400+ moratoriums on ~18% of tracked sites [read][woodmac], record cancellations, restrictions winning in nearly all ~41 November ballot measures [search][ballot]; vs DCW Q2 ($68B) below Q1 ($130B) [search], 13 statewide bills died in 2026 [read][semi-mor], pipeline +29% a year [read][woodmac]. |
+| *(Escalation is handled in Section 1, ¶1.2 and ¶1.4–1.5.)* | Escalation evidence to cite there if needed: 400+ moratoriums on ~18% of tracked sites [read][woodmac]; Texas's Sept 2026 permit pause (60+ GW under review) [read][woodmac]; restrictions won in nearly all ~41 Nov ballot measures [search][ballot]; vs DCW Q2 ($68B) below Q1 ($130B) [search]; 13 statewide bills died in 2026 [read][semi-mor]. |
 | **It's the most powerful grassroots AI politics right now.** | True, but aimed at local costs that developers can pay down. Channel it into shared policies (conclusion) rather than relying on it as a brake. |
 | **Delays compound if construction is the bottleneck.** | Only in years when buildings, not chips, bind. Chips likely bind in 2027–28. Even with buildings binding, today's measured delay is weeks of growth. |
 | **Even weeks matter if timelines are short.** | Concede that weeks matter more. But an unreliable lever that delivers weeks, falls on the wrong actors and may push compute abroad is worse than targeted tools. |
@@ -164,3 +169,5 @@ Writing rules for every paragraph: open with the claim → give one or two numbe
 [govai-compute]: https://www.governance.ai/research-paper/computing-power-and-the-governance-of-artificial-intelligence
 [baxtel-jarvis]: https://baxtel.com/data-center/sentinel-grove-technology-park
 [wfae-stokes]: https://www.wfae.org/2026-09-15/inside-stokes-countys-latest-vote-on-the-project-delta-data-center
+[hr10119]: https://www.congress.gov/bill/119th-congress/house-bill/10119/text/ih
+[burchett]: https://burchett.house.gov/media/press-releases/immediate-release-rep-burchett-introduces-bill-give-municipalities-control
