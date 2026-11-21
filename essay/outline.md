@@ -95,7 +95,7 @@ Writing rules for every paragraph: open with the claim → give one or two numbe
 - **The squeeze falls on smaller players:** in our data, the developers that didn't recover were smaller ones: Energy Storage Solutions (lost Tarboro, then withdrew from Kingsboro) [read][cpp]; Karis Critical (denied in Naperville, withdrew in Hoffman Estates) [search]. Tighter supply also hits inference capacity and academic users first. A blunt brake may **concentrate** frontier compute among fewer, better-funded actors.
 - **It can push compute somewhere harder to govern:** offshoring to jurisdictions with weaker oversight (the UAE). Arguably backlash's most important governance effect.
 - **Progress isn't only compute scale:** algorithmic efficiency improves ~3x a year (Epoch; other estimates 2–6x) [search][epoch-compute]; RL rollouts and inference can be spread across many sites [bg; cite Epoch's decentralized-training piece][epoch-decentral].
-- **Levers that target the risk** (brief here; expanded in the conclusion):
+- **Levers that target the risk** (name them in one or two sentences here; recommendations come in Section 5):
   - compute thresholds and reporting for large training runs [heim-thresholds];
   - know-your-customer rules for compute providers: cloud providers verify who rents frontier-scale compute and flag large training runs [govai-kyc];
   - export controls, which limit rivals' frontier compute and keep frontier clusters under oversight. Note the tension: loosening them (the UAE) is also an escape valve.
@@ -103,29 +103,29 @@ Writing rules for every paragraph: open with the claim → give one or two numbe
 
 ---
 
-## Counterarguments and rebuttals (~150–200 words)
+## Section 4. What if timelines are short? (~150 words)
 
-| Counterargument | Rebuttal |
-|---|---|
-| *(Escalation is handled in Section 1, ¶1.2 and ¶1.4–1.5.)* | Escalation evidence to cite there if needed: 400+ moratoriums on ~18% of tracked sites [read][woodmac]; Texas's Sept 2026 permit pause (60+ GW under review) [read][woodmac]; restrictions won in nearly all ~41 Nov ballot measures [search][ballot]; vs DCW Q2 ($68B) below Q1 ($130B) [search]; 13 statewide bills died in 2026 [read][semi-mor]. |
-| **It's the most powerful grassroots AI politics right now.** | True, but aimed at local costs that developers can pay down. Channel it into shared policies (conclusion) rather than relying on it as a brake. |
-| **Delays compound if construction is the bottleneck.** | Only in years when buildings, not chips, bind. Chips likely bind in 2027–28. Even with buildings binding, today's measured delay is weeks of growth. |
-| **Even weeks matter if timelines are short.** | Concede that weeks matter more. But an unreliable lever that delivers weeks, falls on the wrong actors and may push compute abroad is worse than targeted tools. |
-
-**Optional one-line strategic cost:** tying safety arguments to zoning fights muddles the safety case and costs credibility in a Washington that frames the buildout as competition with China. Do **not** claim foreign actors are stoking backlash (no evidence found).
-
-**Signposts that opposition is becoming a real brake** (could close this section): state-level restrictions in TX, VA, GA, OH, PA; projects *with signed tenants* failing; time to construction lengthening year after year; cancellations exceeding new pipeline entries; the offshore share rising fast.
+- **Topic sentence:** If transformative AI arrives within a few years, opposition matters even less, because the capacity that matters is already built or under construction.
+- **Evidence:** moratoriums "freeze new applications rather than revoke approvals already granted"; capacity under construction or fully permitted "is out of reach altogether… That covers all of 2026 and most of 2027" [read][semi-mor]. Over 24 GW of capacity is in advanced construction, mostly delivering in 2027 [read][semi-27]. Construction takes ~9–18 months (under 10 for modular designs) [read][semi-27].
+- **Nuance (one clause):** "most," not "all": ~39% of the 2027 cohort hadn't cleared land by Aug 2026, but SynMax argues that capacity likely slips to 2028 anyway [read][synmax]. Post-construction challenges (air permits, lawsuits against approvals) are rare; the attempt to unwind Saline's settlement failed [read][pd-saline].
+- **Tie-back:** under short timelines, the only levers that act in time are those governing how existing compute is used, which leads into the final section.
 
 ---
 
-## Conclusion: what might work (~200 words)
+## Section 5 / Conclusion. What would work (~250 words)
 
 - **Restate:** backlash is an unreliable brake on AI, but a real force on *where* compute is built and *who* can afford to build it.
-- **Shared policies that serve both local opponents and safety; the common thread is transparency about who is building what, where:**
+- **Targeted levers that aim at the risk** (from Section 3, now as recommendations):
+  - compute thresholds and reporting for large training runs [heim-thresholds];
+  - know-your-customer rules for compute providers [govai-kyc];
+  - export controls on frontier compute, applied with care, since loosening them is also an escape valve [uae];
+  - overview: Sastry, Heim et al. [govai-compute].
+- **Using the grassroots momentum through shared policies** (restrictions won in nearly all ~41 local ballot measures in Nov 2026 [search][ballot]; the backlash is bipartisan). The common thread is **transparency about who is building what, where:**
   - **public registries and disclosure for large data centers and loads** (size, power, operator): citizens get information; safety gets visibility into large clusters, which supports thresholds, KYC and export enforcement. Examples: FERC backing a PJM data center registry [search]; New Jersey's quarterly energy and water disclosure bill [read: DCW briefing];
   - **limits on secrecy**, e.g., Florida SB 484's restrictions on local-government NDAs [read][baxtel-jarvis]: answers a top local grievance and helps establish who the end users are;
   - **ratepayer protection and large-load tariffs**: mainly a fairness win, which keeps the coalition focused on solvable problems.
-- **Final line:** point back to targeted compute governance as the lever that actually aims at the risk.
+- **Optional one sentence on strategic cost:** tying safety arguments to zoning fights muddles the safety case and costs credibility in a Washington that frames the buildout as competition with China. Do **not** claim foreign actors are stoking backlash (no evidence found).
+- **Final line:** the safety community gains more by bringing this coalition's energy to transparency and targeted compute governance than by riding it as a brake.
 
 ---
 
