@@ -28,7 +28,7 @@ Source tags: **[read]** = page read directly in this project. **[search]** = see
 - Most losses occur at the first local-approval step (rezoning / special use permit). Developers routinely lose sites at this stage.
 - Few blocked projects had a public tenant or power deal at the time. Broad list: 3 of 42 blocked/delayed named an end user.
 - Moratoriums were the main cause in only ~4 of 21 (core) and 4 of 42 (broad). Withdrawals and rezoning denials dominate.
-- Projects with real demand behind them got through: Saline (OpenAI/Oracle, by lawsuit and settlement), Project Blue (approved by Pima County after Tucson said no), Hermantown (Google, approved after ~1 year).
+- Projects that cleared opposition did so by *other routes*: a lawsuit and settlement (Saline), a different approving government (Project Blue, Pima County after Tucson said no), a delayed approval (Hermantown, ~1 year). ⚠️ Do NOT claim real demand caused this: only Hermantown clearly had a tenant (Google) before the opposition; Saline's tenant (OpenAI/Oracle) became public two weeks after the legal win; Project Blue cleared approvals with no tenant and AWS left in Dec 2025. Approval often comes first and tenants sign afterward, which is consistent with the funnel.
 - Delays where measurable: ~8–15 months (Stokes ~8; Hermantown ~12; Project Sail ~15).
 - ⚠️ Re-run `analysis/summarize.py` after the human check of the 21 rows. Drop the old "speculative vs committed" result: it relied on information that became public after the opposition.
 
