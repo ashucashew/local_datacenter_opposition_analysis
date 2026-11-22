@@ -95,11 +95,8 @@ Writing rules for every paragraph: open with the claim → give one or two numbe
 - **The squeeze falls on smaller players:** in our data, the developers that didn't recover were smaller ones: Energy Storage Solutions (lost Tarboro, then withdrew from Kingsboro) [read][cpp]; Karis Critical (denied in Naperville, withdrew in Hoffman Estates) [search]. Tighter supply also hits inference capacity and academic users first. A blunt brake may **concentrate** frontier compute among fewer, better-funded actors.
 - **It can push compute somewhere harder to govern:** offshoring to jurisdictions with weaker oversight (the UAE). Arguably backlash's most important governance effect.
 - **Progress isn't only compute scale:** algorithmic efficiency improves ~3x a year (Epoch; other estimates 2–6x) [search][epoch-compute]; RL rollouts and inference can be spread across many sites [bg; cite Epoch's decentralized-training piece][epoch-decentral].
-- **Levers that target the risk** (name them in one or two sentences here; recommendations come in Section 5):
-  - compute thresholds and reporting for large training runs [heim-thresholds];
-  - know-your-customer rules for compute providers: cloud providers verify who rents frontier-scale compute and flag large training runs [govai-kyc];
-  - export controls, which limit rivals' frontier compute and keep frontier clusters under oversight. Note the tension: loosening them (the UAE) is also an escape valve.
-  - Overview: Sastry, Heim et al. [govai-compute].
+- **However, a narrow shared interest (2–3 sentences):** secrecy is one of the most common grievances in our data. Residents often don't learn who a project is for, or its power and water needs, until late: NDAs and an unnamed end user in St. Charles (Project Cumulus); Hermantown officials met with Google for over a year before the project was public, and residents sued over closed meetings [read][mpr-herm]; an unnamed "Fortune 100" company in Howell Township; a councilor's NDA in Franklin Township [read: DCW briefings]. Disclosure of operator, end user and scale at the application stage helps residents. It modestly helps safety too, by making large clusters visible. The overlap is real but narrow, and it requires slowing nothing.
+- **Pivot to recommendation (one or two sentences; do NOT explain each lever):** the safety policy community would do better to focus on tools that target the actual risk, such as compute thresholds and reporting, know-your-customer rules for compute providers, and export controls [heim-thresholds][govai-kyc][govai-compute].
 
 ---
 
@@ -112,20 +109,15 @@ Writing rules for every paragraph: open with the claim → give one or two numbe
 
 ---
 
-## Section 5 / Conclusion. What would work (~250 words)
+## Conclusion (~200 words)
 
-- **Restate:** backlash is an unreliable brake on AI, but a real force on *where* compute is built and *who* can afford to build it.
-- **Targeted levers that aim at the risk** (from Section 3, now as recommendations):
-  - compute thresholds and reporting for large training runs [heim-thresholds];
-  - know-your-customer rules for compute providers [govai-kyc];
-  - export controls on frontier compute, applied with care, since loosening them is also an escape valve [uae];
-  - overview: Sastry, Heim et al. [govai-compute].
-- **Using the grassroots momentum through shared policies** (restrictions won in nearly all ~41 local ballot measures in Nov 2026 [search][ballot]; the backlash is bipartisan). The common thread is **transparency about who is building what, where:**
-  - **public registries and disclosure for large data centers and loads** (size, power, operator): citizens get information; safety gets visibility into large clusters, which supports thresholds, KYC and export enforcement. Examples: FERC backing a PJM data center registry [search]; New Jersey's quarterly energy and water disclosure bill [read: DCW briefing];
-  - **limits on secrecy**, e.g., Florida SB 484's restrictions on local-government NDAs [read][baxtel-jarvis]: answers a top local grievance and helps establish who the end users are;
-  - **ratepayer protection and large-load tariffs**: mainly a fairness win, which keeps the coalition focused on solvable problems.
-- **Optional one sentence on strategic cost:** tying safety arguments to zoning fights muddles the safety case and costs credibility in a Washington that frames the buildout as competition with China. Do **not** claim foreign actors are stoking backlash (no evidence found).
-- **Final line:** the safety community gains more by bringing this coalition's energy to transparency and targeted compute governance than by riding it as a brake.
+- **Recap the answer:** no. US data center opposition is not an effective AI safety lever.
+- **Recap the three reasons, one sentence each:**
+  1. It acts on time and cost, not compute. Developers have backup options, capacity is worth far more than the costs, chips increasingly set the ceiling, and federal policy backs the buildout.
+  2. The coalition's grievances can be bought off without slowing AI, so it isn't a brake anyone can steer.
+  3. It aims at the wrong target: frontier labs are squeezed last, compute may move somewhere harder to govern, and progress doesn't depend only on scale. Under short timelines, it can't touch the capacity that matters.
+- **Final recommendation:** don't invest in data center opposition as a brake. Put effort into targeted compute governance. Where interests genuinely coincide, as on disclosure of who is building what, cooperate narrowly without tying the safety case to zoning fights.
+- **Optional closing line:** backlash is a real force on *where* compute is built and *who* can afford to build it, but not on *whether* frontier AI advances.
 
 ---
 
